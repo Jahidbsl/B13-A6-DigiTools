@@ -19,8 +19,8 @@ const GetStart = ({ getStartPromise }) => {
         {step.id}
     </p>
 
-    <div className="w-20 h-20 bg-purple-50 rounded-full flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300">
-        <img src={step.icon} className="w-10 h-10 object-contain" alt={step.title} />
+    <div className="w-25 h-25 bg-purple-50 rounded-full flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-300 mt-12">
+        <img src={step.icon} className="w-15 h-15 object-contain" alt={step.title} />
     </div>
 
     <div className="flex-grow flex flex-col justify-center">

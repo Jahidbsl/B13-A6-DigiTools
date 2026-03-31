@@ -5,6 +5,7 @@ import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Products from './components/Products/Products'
 import GetStart from './components/GetStart/GetStart'
+import Pricing from './components/Pricing/Pricing'
 
 const getProducts = async()=>{
   const res = await fetch('/productsData.json');
@@ -34,8 +35,12 @@ const [selectedCart, setSelectedCard] = useState([]);
  </Products>
     </Suspense>
    
- <Suspense fallback={<div>Loading steps...</div>}>
+ <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
       <GetStart getStartPromise={getStartPromise} />
+    </Suspense>
+
+    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+      <Pricing></Pricing>
     </Suspense>
   </main>
    </>

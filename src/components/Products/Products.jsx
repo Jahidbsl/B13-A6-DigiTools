@@ -8,7 +8,7 @@ const Products = ({productsPromise, selectedCart ,setSelectedCard}) => {
     const [isSelecetedProducts , setIsSelecetedProducts] =useState('Products')
     // console.log(isSelecetedProducts,'isSelecetedProducts')
     return (
-  <div className='my-5'>
+  <div id='product' className='my-5'>
    <div className='flex flex-col items-center space-y-4 my-5' >
      <h3 className='text-4xl font-bold'>Premium Digital Tools</h3>
     <p className=' text-gray-400 w-md text-center '>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
