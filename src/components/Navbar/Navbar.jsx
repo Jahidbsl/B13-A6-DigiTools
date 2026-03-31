@@ -14,6 +14,7 @@ const Navbar = ({selectedCart}) => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <p className='btn btn-ghost text-xl font-bold text-linear-brand'>Digitools</p>
          <li><a>Products</a></li>
       
       <li><a>Features</a></li>
@@ -22,7 +23,9 @@ const Navbar = ({selectedCart}) => {
       <li><a>FAQ</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost text-2xl font-bold text-linear-brand">Digitools</a>
+    <a className="btn btn-ghost text-2xl font-bold text-linear-brand hidden sm:inline-flex">
+  Digitools
+</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-[16px]">

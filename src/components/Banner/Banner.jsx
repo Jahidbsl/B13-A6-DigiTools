@@ -32,7 +32,7 @@ const Banner = () => {
             </button>
             
             <button className='btn btn-ghost gap-2 hover:bg-transparent hover:text-[#4F39F6] transition-colors rounded-3xl btn-outline'>
-                <img src="/src/assets/Play.png" className='w-6 h-6' alt="Play" />
+                <img src="/assets/Play.png" className='w-6 h-6' alt="Play" />
                 <span className='font-bold'>Watch Demo</span>
             </button>
         </div>
