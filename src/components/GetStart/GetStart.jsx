@@ -15,7 +15,7 @@ const GetStart = ({ getStartPromise }) => {
                         
                         return (
                         <div key={step.id} className="relative bg-white p-10 rounded-3xl shadow-sm hover:shadow-xl text-center flex flex-col items-center min-h-[400px] border border-slate-50 group">
-    <p className="absolute  left-100 bg-linear-brand w-12 h-12 rounded-full flex items-center justify-center text-white font-extrabold shadow-lg border-4 border-white z-10">
+    <p className="absolute top-5 left-70 md:left-100 bg-linear-brand w-12 h-12 rounded-full flex items-center justify-center text-white font-extrabold shadow-lg border-4 border-white z-10">
         {step.id}
     </p>
 

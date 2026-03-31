@@ -10,8 +10,17 @@ const Products = ({productsPromise, selectedCart ,setSelectedCard}) => {
     return (
   <div id='product' className='my-5'>
    <div className='flex flex-col items-center space-y-4 my-5' >
-     <h3 className='text-4xl font-bold'>Premium Digital Tools</h3>
-    <p className=' text-gray-400 w-md text-center '>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
+<div className="flex flex-col items-center px-4">
+   
+    <h3 className="text-3xl md:text-4xl font-bold text-slate-800 text-center ">
+        Premium Digital Tools
+    </h3>
+
+   
+    <p className="text-gray-400 text-center mt-4 text-base md:text-lg max-w-md md:max-w-xl">
+        Choose from our curated collection of premium digital products designed to boost your productivity and creativity.
+    </p>
+</div>
  <div className="flex justify-center my-10">
    
     <div className="inline-flex items-center bg-white border border-gray-100  rounded-full shadow-sm">
