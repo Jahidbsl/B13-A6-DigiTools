@@ -1,4 +1,5 @@
 import { Check } from 'lucide-react';
+import { toast } from 'react-toastify';
 
 
 const ProductsCard = ({products,selectedCart ,setSelectedCard}) => {
@@ -10,7 +11,8 @@ const ProductsCard = ({products,selectedCart ,setSelectedCard}) => {
 const isBuy = selectedCart.some((item) => item.id === products.id); 
  const handelBuy =()=>{
 if (!isBuy) {
-        alert(`${products.name} is Selected`);
+        // alert(`${products.name} is Add To Cart`);
+        toast(`${products.name} is Selected`)
         setSelectedCard([...selectedCart, products]);
     }
 
@@ -81,7 +83,7 @@ if (!isBuy) {
     `}>
       
       {
-        isBuy ? 'Checkout' : 'Buy Now'
+        isBuy ? 'Add To Cart' : 'Buy Now'
       }
     </button>
   </div>

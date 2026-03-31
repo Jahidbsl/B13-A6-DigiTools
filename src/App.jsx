@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 import Products from './components/Products/Products'
 import GetStart from './components/GetStart/GetStart'
 import Pricing from './components/Pricing/Pricing'
+import { ToastContainer } from 'react-toastify'
 
 const getProducts = async()=>{
   const res = await fetch('/productsData.json');
@@ -43,6 +44,8 @@ const [selectedCart, setSelectedCard] = useState([]);
       <Pricing></Pricing>
     </Suspense>
   </main>
+{/* react Tosify */}
+  <ToastContainer></ToastContainer>
    </>
   )
 }

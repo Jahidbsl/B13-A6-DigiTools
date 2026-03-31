@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import CartDisk from './CartDisk';
 
 const Carts = ({ selectedCart, setSelectedCard }) => {
@@ -6,6 +7,7 @@ const Carts = ({ selectedCart, setSelectedCard }) => {
         const filterProduct = selectedCart.filter((item) => 
             item.id !== clickedProduct.id   
         );
+        toast('Deleted!')
         setSelectedCard(filterProduct);
     };
 
@@ -15,7 +17,8 @@ const Carts = ({ selectedCart, setSelectedCard }) => {
 
     const hendleCheckout =()=>{
 // console.log('clickedCheckout')
-         alert("Order Placed Successfully!");
+        //  alert("Order Placed Successfully!");
+         toast("Order Placed Successfully!");
            setSelectedCard([])
     }
    
