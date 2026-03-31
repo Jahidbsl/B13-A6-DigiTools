@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Products from './components/Products/Products'
+import GetStart from './components/GetStart/GetStart'
 
 const getProducts = async()=>{
   const res = await fetch('/productsData.json');
@@ -11,11 +12,13 @@ const getProducts = async()=>{
   
   return data;
 }
+const getStartPromise = fetch('/getStartData.json').then((res) => res.json());
 
 function App() {
 const productsPromise = getProducts()
-const [selectedCart, setSelectedCard] = useState([]);
 
+const [selectedCart, setSelectedCard] = useState([]);
+// console.log(getStartPromise)
   return (
     <>
   
@@ -27,14 +30,13 @@ const [selectedCart, setSelectedCard] = useState([]);
  productsPromise={productsPromise}
  selectedCart={selectedCart} 
  setSelectedCard={setSelectedCard}
-
  >
-  
-
  </Products>
     </Suspense>
    
-    
+ <Suspense fallback={<div>Loading steps...</div>}>
+      <GetStart getStartPromise={getStartPromise} />
+    </Suspense>
   </main>
    </>
   )

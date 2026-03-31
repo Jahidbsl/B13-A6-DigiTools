@@ -4,7 +4,7 @@ import Carts from './Carts/Carts';
 
 const Products = ({productsPromise, selectedCart ,setSelectedCard}) => {
     // console.log(productsPromise)
-    const productsData =use(productsPromise);
+    const productsData = use(productsPromise);
     const [isSelecetedProducts , setIsSelecetedProducts] =useState('Products')
     // console.log(isSelecetedProducts,'isSelecetedProducts')
     return (
