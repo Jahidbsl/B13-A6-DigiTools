@@ -44,7 +44,7 @@ const Banner = () => {
         <div className='absolute -top-10 -left-10 w-64 h-64 bg-[#9514FA]/10 blur-3xl rounded-full'></div>
         
         <img 
-            src="/src/assets/banner.png" 
+            src="/assets/banner.png" 
             alt="Banner" 
             className='relative z-10 w-full max-w-lg drop-shadow-2xl animate-float' 
         />
