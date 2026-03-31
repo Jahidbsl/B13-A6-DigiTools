@@ -36,7 +36,7 @@ const Pricing = () => {
   ];
 
     return (
-     <section className="py-20 bg-slate-50/50 px-4">
+     <section className="py-20 px-4">
            
             <div className='flex flex-col items-center space-y-3 text-center mb-16'>
                 <h1 className='text-4xl md:text-5xl font-black text-slate-900 tracking-tight'>Simple, Transparent Pricing</h1>
@@ -44,7 +44,7 @@ const Pricing = () => {
             </div>
 
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto items-stretch">
+            <div className=" container grid grid-cols-1 md:grid-cols-3 gap-8 mx-auto items-stretch">
                 {plans.map((item) => (
                     <div 
                         key={item.id} 
@@ -97,6 +97,16 @@ const Pricing = () => {
                         </button>
                     </div>
                 ))}
+            </div>
+
+            <div className='min-h-[450px] bg-linear-brand flex flex-col items-center justify-center text-center  my-16 py-10'>
+<h1 className='text-white text-4xl md:text-5xl mb-10'>Ready to Transform Your Workflow?</h1>
+<p className='text-white/90 text-lg md:text-xl max-w-2xl font-medium mb-10'>Join thousands of professionals who are already using Digitools to work smarter.Start your free trial today.</p>
+<div className='flex flex-wrap items-center justify-center gap-4 mb-10'>
+  <button className='px-8 py-4 bg-white text-[#6D28D9] font-bold text-lg rounded-2xl'>Explore Products</button>
+  <button className='px-8 py-4 bg-transparent text-white border-2 border-white/40 font-bold text-lg rounded-2xl'>View Pricing</button>
+</div>
+<p className='text-white/70 text-sm md:text-base font-medium tracking'>14-day free trial • No credit card required • Cancel anytime</p>
             </div>
         </section>
     );
