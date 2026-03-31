@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for individuals starting their professional career journey.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["5 basic templates", "Standard PDF export", "Basic editing tools"],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Professional Plus",
+    "description": "Advanced features for serious job seekers and developers.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "popular",
+    "features": ["50+ premium templates", "ATS optimization", "AI-powered suggestions", "Priority support"],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Ultimate Developer",
+    "description": "Exclusive designs specifically made for software engineers.",
+    "price": 199,
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "best seller",
+    "features": ["Unlimited templates", "GitHub integration", "Portfolio hosting", "Custom domain support"],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 4,
+    "name": "Agency Suite",
+    "description": "Collaborative tools for teams and recruitment agencies.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Team collaboration", "Bulk exports", "Custom branding", "API access"],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Creative Designer",
+    "description": "Visual-heavy layouts for graphic and UI/UX designers.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Graphic-rich layouts", "SVG/PNG export", "Color palette generator"],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Lifetime Access",
+    "description": "Pay once and get all future updates and premium features.",
+    "price": 499,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["All premium features", "Lifetime updates", "Exclusive community access", "Personal branding consultant"],
+    "icon": "/src/assets/products/operation.png"
+  }
+]

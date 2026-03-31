@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+    font-family: "Manrope", sans-serif;
+    
+}
+
+.text-linear-brand {
+  background: linear-gradient(90deg, #4F39F6 0%, #9514FA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-linear-brand {
+  background: linear-gradient(90deg, #4F39F6 0%, #9514FA 100%);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.bg-linear-brand:hover {
+  opacity: 0.9;
+  filter: brightness(1.1);
+}
