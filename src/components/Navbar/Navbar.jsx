@@ -76,7 +76,7 @@ const Navbar = ({ selectedCart }) => {
         <div className="navbar-end flex gap-3 md:gap-5">
           <span className="relative inline-block cursor-pointer group">
             <a
-              href=""
+              
               className="p-2 flex items-center justify-center rounded-full hover:bg-slate-100 transition-colors duration-200"
             >
               <ShoppingCart
