@@ -1,5 +1,6 @@
 import { toast } from "react-toastify";
 import CartDisk from "./CartDisk";
+import { ShoppingCart } from "lucide-react";
 
 const Carts = ({ selectedCart, setSelectedCard }) => {
   const handelTrash = (clickedProduct) => {
@@ -25,9 +26,13 @@ const Carts = ({ selectedCart, setSelectedCard }) => {
     <section>
       <div id="cart-section">
         {selectedCart.length === 0 ? (
-          <div className="text-center py-20">
+          <div className="flex flex-col items-center space-y-3 text-center container mx-auto px-6 md:px-10 border-2 border-slate-100 rounded-3xl py-10 shadow-sm bg-white">
+             <span className="text-gray-300">
+                   <ShoppingCart size={80}></ShoppingCart>
+                </span>
             <h2 className="text-2xl font-bold text-gray-400">
-              No Carts Selected
+               
+             Your Cart is empty
             </h2>
           </div>
         ) : (

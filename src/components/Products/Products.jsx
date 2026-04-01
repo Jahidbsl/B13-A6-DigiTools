@@ -9,7 +9,7 @@ const Products = ({ productsPromise, selectedCart, setSelectedCard }) => {
   // console.log(isSelecetedProducts,'isSelecetedProducts')
   return (
    <section>
-     <div id="product" className="my-5">
+     <div className="my-5">
       <div className="flex flex-col items-center space-y-4 my-5">
         <div className="flex flex-col items-center px-4">
           <h3 className="text-3xl md:text-4xl font-bold text-slate-800 text-center ">

@@ -56,7 +56,7 @@ const Navbar = ({ selectedCart }) => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-[16px]">
             <li>
-              <a href="#product">Products</a>
+              <a href="">Products</a>
             </li>
 
             <li>
@@ -76,7 +76,7 @@ const Navbar = ({ selectedCart }) => {
         <div className="navbar-end flex gap-3 md:gap-5">
           <span className="relative inline-block cursor-pointer group">
             <a
-              href="#cart-section"
+              href=""
               className="p-2 flex items-center justify-center rounded-full hover:bg-slate-100 transition-colors duration-200"
             >
               <ShoppingCart

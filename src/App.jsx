@@ -14,11 +14,10 @@ const getProducts = async () => {
 
   return data;
 };
+const productsPromise = getProducts();
 const getStartPromise = fetch("/getStartData.json").then((res) => res.json());
 
 function App() {
-  const productsPromise = getProducts();
-
   const [selectedCart, setSelectedCard] = useState([]);
   // console.log(getStartPromise)
   return (

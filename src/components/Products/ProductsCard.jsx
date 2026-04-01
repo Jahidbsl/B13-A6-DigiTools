@@ -59,6 +59,7 @@ const ProductsCard = ({ products, selectedCart, setSelectedCard }) => {
 
       <div className="mt-8">
         <button
+          type="button"
           onClick={handelBuy}
           disabled={isBuy}
           className={`
