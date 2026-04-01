@@ -1,18 +1,18 @@
 [
   {
-    "id": 1,
+    "id": "01",
     "icon": "/assets/user.png",
     "title": "Create Account",
     "description": "Join our community by signing up with your email to access premium digital tools instantly."
   },
   {
-    "id": 2,
+    "id": "02",
     "icon": "/assets/package.png",
     "title": "Browse Products",
     "description": "Explore our curated collection of high-quality assets designed to supercharge your workflow."
   },
   {
-    "id": 3,
+    "id": "03",
     "icon": "/assets/rocket.png",
     "title": "Start Creating",
     "description": "Download your selected tools and start building amazing projects with our professional resources."

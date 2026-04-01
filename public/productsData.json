@@ -64,5 +64,38 @@
     "tagType": "best seller",
     "features": ["All premium features", "Lifetime updates", "Exclusive community access", "Personal branding consultant"],
     "icon": "/assets/products/operation.png"
+  },
+  {
+    "id": 7,
+    "name": "SEO Optimizer Pro",
+    "description": "Boost your search engine rankings with automated meta-tags and keywords.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Keyword research tool", "Competitor analysis", "Backlink checker", "Weekly SEO reports"],
+    "icon": "/assets/rocket.png"
+  },
+  {
+    "id": 8,
+    "name": "Marketing Suite",
+    "description": "All-in-one marketing tools for social media and email campaigns.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Email automation", "Social media scheduler", "A/B testing", "Analytics dashboard"],
+    "icon": "/assets/rocket.png"
+  },
+  {
+    "id": 9,
+    "name": "Security Shield",
+    "description": "Protect your digital assets with advanced encryption and monitoring.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["24/7 malware scan", "DDoS protection", "Auto-backup system", "Instant security alerts"],
+    "icon": "/assets/products/design-tool.png"
   }
 ]
