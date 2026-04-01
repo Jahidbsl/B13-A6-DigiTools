@@ -1,6 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
 body{
     font-family: "Manrope", sans-serif;
     
